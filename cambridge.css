@@ -1,0 +1,17 @@
+.ti.fs.fs12.lmb-0.hw.superentry,
+.pr.x.lbb.lb-cm,
+.lpt-2.desktop-content,
+#topNavBar,
+.dwla.wordlist-add-button,
+#footer,
+#ContentsMenu {
+  display: none !important;
+}
+
+#page-content + div {
+  display: none;
+}
+
+#page-content {
+  
+}
