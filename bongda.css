@@ -1,0 +1,12 @@
+.news-moving,
+.news-sec.mb-5.tinmoinhat,
+.linkFooter,
+#lazy-load-boxes,
+.hot-news,
+.footer,
+.header {
+  display: none;
+}
+.layout-fw .box-wapper {
+  width: auto;
+}
