@@ -1,0 +1,13 @@
+.jsx-1328309378.header,
+.jsx-1328309378.facts-container,
+.jsx-2219280840.shortcuts,
+.jsx-2219280840.links,
+.jsx-3946691244.main,
+.jsx-2790954478.col-right.additional-padding,
+.ReactModalPortal {
+  display: none !important;
+}
+
+.ReactModal__Body--open {
+  overflow: auto;
+}
