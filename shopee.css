@@ -1,0 +1,10 @@
+#HomePageCarouselBannerSection,
+.full-home-banners-wrapper,
+footer[role="contentinfo"],
+.homepage-mall-section,
+.shopee-searchbar ~ div,
+.page-product__breadcrumb,
+.shopee-header-section.au6P2T.shopee-header-section--simple,
+.home-category-list {
+  display: none !important;
+}
