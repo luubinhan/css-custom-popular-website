@@ -1,0 +1,41 @@
+.SiteUpgradeButton,
+.pb-stream,
+.TimeAndVisibilityAd,
+.SiteFooter,
+.SetPage-flickrAttributions,
+#__exco_root_container,
+.exco_sticky-placement,
+[href="/upgrade?source=learn-chiclet"],
+#targetDiv-setpage_billboard,
+#targetDiv-SidebarAdsContainer {
+  display: none !important;
+}
+
+.SetPage.has-adz.has-billboard-ad .has-billboard-ad {
+  display: none !important;
+}
+
+.SetPage.has-adz.has-billboard-ad > div > .has-billboard-ad {
+  width: 0 !important;
+  display: none !important;
+}
+
+.SetPage.has-adz.has-billboard-ad > div {
+  display: block !important;
+}
+
+/* flashcard screen */
+.acab9pq {
+  display: none !important;
+}
+
+.c1pmprka {
+  grid-template-columns: auto !important;
+}
+
+.cqfw9l2 {
+  min-width: 700px !important;
+}
+.acab9pq {
+  display: none !important;
+}
