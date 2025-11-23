@@ -13,9 +13,16 @@
 #ContentPlayerPc,
 #tto_chude_web,
 #tto_docthem_web,
+.section__r-giaitri,
+.toppic__foccus-full,
+.section__mn-sub.wrapper_right,
+.section__hf-list,
+[data-atc="atc-nonstar"],
 .detail-same-cate,
+#product-list-plugin,
 .detail__related,
 .detail__same-category,
+.section__r-vietlot,
 .detail__newslette,
 .sendstarauthor,
 [data-view="formcomment"],
@@ -25,6 +32,10 @@
 
 .detail__main {
   margin: 0 auto;
+}
+
+#main-detail .section__home-focus .section__hf-box {
+  width: auto !important;
 }
 
 .detail-cmain {
