@@ -1,4 +1,5 @@
 .weather,
+#LeaderBoardTop,
 .boxraovat_catedetail,
 .detail__sticky,
 #LeaderBoardTop,
@@ -19,7 +20,7 @@
 .sendstarauthor,
 [data-view="formcomment"],
 .header__top-right {
-  display: none;
+  display: none !important;
 }
 
 .detail__main {
