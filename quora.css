@@ -1,0 +1,48 @@
+.q-text.qu-dynamicFontSize--small.qu-color--gray.qu-passColorToLinks,
+.dom_annotate_multifeed_bundle_AskQuestionPromptBundle,
+.spacing_log_header_nav > button,
+a[href="https://www.quora.com/answer"],
+a[href="https://www.quora.com/notifications"],
+.q-box[width="356"],
+.q-box[width="123.5"],
+div[aria-label="Add question"] {
+  display: none !important;
+}
+
+.q-box[width="588.5"] {
+  width: 780px;
+  margin-left: 0;
+}
+
+.q-text.qu-dynamicFontSize--regular.qu-display--flex.qu-px--large.qu-flexDirection--row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacing_log_answer_content.puppeteer_test_answer_content {
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.q-box.dom_annotate_multifeed_bundle_AnswersBundle.qu-borderAll.qu-borderColor--raised.qu-boxShadow--small.qu-mb--small.qu-bg--raised {
+  border: none !important;
+  box-shadow: none;
+  padding: 25px;
+}
+
+.q-box.qu-zIndex--action_bar {
+  margin-top: 24px;
+}
+
+.q-box.qu-mt--small.standalone_featurable {
+  font-size: 1.5rem;
+}
+
+.q-text.puppeteer_test_question_title {
+  font-size: 1.5rem;
+}
+.q-box.qu-mb--tiny,
+.q-box.dom_annotate_ad_video_ad {
+  display: none !important;
+}
