@@ -1,0 +1,43 @@
+.weather,
+.boxraovat_catedetail,
+.detail__sticky,
+#LeaderBoardTop,
+#detail_comment,
+.detail-tab,
+.footer,
+.box-author-detail,
+[type="RelatedOneNews"],
+.detail__qc,
+.detail-info,
+#ContentPlayerPc,
+#tto_chude_web,
+#tto_docthem_web,
+.detail-same-cate,
+.detail__related,
+.detail__same-category,
+.detail__newslette,
+.sendstarauthor,
+[data-view="formcomment"],
+.header__top-right {
+  display: none;
+}
+
+.detail__main {
+  margin: 0 auto;
+}
+
+.detail-cmain {
+  line-height: 1.6;
+  h2 {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1.6em;
+    line-height: 1.6;
+  }
+}
+
+.detail-sapo {
+  font-size: 1.6em;
+  font-weight: normal;
+}
