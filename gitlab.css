@@ -13,8 +13,13 @@
 #menu-section-button-monitor,
 #menu-section-button-secure,
 #menu-section-button-operate,
+[data-testid="sidebar-milestones"],
+[data-testid="sidebar-labels"],
 [data-qa-submenu-item="Tags"],
+[data-testid="time-tracker"],
 [data-qa-submenu-item="Locked files"],
+.block.time-tracking,
+.block.participants,
 [data-qa-submenu-item="Compare revisions"],
 [data-testid="merge-requests-shortcut-button"],
 [data-testid="issues-shortcut-button"] {
