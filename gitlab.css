@@ -1,0 +1,22 @@
+#create-menu-toggle,
+[data-testid="ai-chat-toggle"],
+[data-testid="ai-history-toggle"],
+[data-testid="sidebar-whatsnew-button"],
+[data-testid="ai-new-toggle"],
+[data-testid="sidebar-help-button"],
+[data-qa-submenu-item="Repository graph"],
+[data-testid="todos-shortcut-button"],
+[data-qa-submenu-item="Snippets"],
+#menu-section-button-analyze,
+#__BVID__691___BV_tab_button__,
+#__BVID__694___BV_tab_button__,
+#menu-section-button-monitor,
+#menu-section-button-secure,
+#menu-section-button-operate,
+[data-qa-submenu-item="Tags"],
+[data-qa-submenu-item="Locked files"],
+[data-qa-submenu-item="Compare revisions"],
+[data-testid="merge-requests-shortcut-button"],
+[data-testid="issues-shortcut-button"] {
+  display: none !important;
+}
