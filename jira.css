@@ -1,0 +1,22 @@
+[data-testid="issue.views.issue-base.foundation.status.actions-wrapper"],
+[data-test-id="ak-spotlight-target-help-spotlight"],
+[data-testid="issue-view-foundation.quick-add.quick-add-items-compact.apps-button-dropdown--trigger"],
+[data-testid="issue-view-layout-group.common.ui.collapsible-group-factory.secondary-context-items"],
+[data-testid="issue.views.issue-base.foundation.status.improve-issue"],
+[data-testid="issue.issue-view-layout.issue-view-single-select-field.customfield_14607"],
+[data-testid="issue-view-layout-group.common.ui.collapsible-group-factory.automation-issue-audit-log-panel"],
+[data-testid="issue-field-heading-styled-field-heading.customfield_14606"],
+[data-testid="issue-field-heading-styled-field-heading.field"],
+[data-testid="issue.issue-view-layout.issue-view-date-field.customfield_14453"],
+[data-testid="issue.issue-view-layout.issue-view-date-field.duedate"],
+[data-testid="issue.issue-view-layout.issue-view-single-select-field.customfield_14606"],
+[data-testid="issue.views.field.select.common.select-inline-edit.fixVersions"],
+[data-testid="issue-view-layout-group.common.ui.collapsible-group-factory.context-group-ecosystemContext__com.herocoders.plugins.jira.issuechecklist-free__issue-checklist-glance-checklist-5146618171782655247"],
+[data-testid="issue-view-layout-group.common.ui.collapsible-group-factory.context-group-ecosystemContext__zendesk_for_jira__zendesk-glance-338388466791077769"],
+[data-testid="issue-view-base.context.ecosystem.connect.content-container"],
+[data-testid="issue-view-ecosystem.connect.content-panel.com.testmo.jira.connect__ui-issues-view-6669292511719415770"],
+[data-testid="issue-view-foundation.quick-add.quick-add-items-compact.add-button-dropdown--trigger"],
+[data-testid="atlassian-navigation--secondary-actions--notifications--menu-trigger"],
+[data-testid="atlassian-navigation.ui.conversation-assistant.app-navigation-ai-mate"] {
+  display: none !important;
+}
