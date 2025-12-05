@@ -112,7 +112,9 @@ const CUSTOM_CSS = `
     background: transparent !important;
     outline: none !important;
 }
-
+.screenshot-chat-frame-container .chat-frame-content-container {
+background: transparent !important;
+}
 .screenshot-popup.posAnimation {
         box-shadow: none !important;
         border: none !important;
