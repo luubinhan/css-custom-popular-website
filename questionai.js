@@ -195,6 +195,9 @@ display: none !important;
     background: transparent !important;
     opacity: 0.5 !important;
 }
+.questions-ai-icon-btn-wrap__screenshot:hover:after {
+    display: none !important;
+}
 .questions-ai-icon-btn-wrap__screenshot .screenshot-icon {
     width: 12px !important;
     height: 12px !important;
