@@ -8,7 +8,7 @@
  * Usage: call injectCssIntoPlasmoHost(yourCssString)
  */
 
-const HOST_IDS = ['qaiSidebarShadowHostEl', 'qaiUnderlineWordShadowHostEl'];
+const HOST_IDS = ['qaiSidebarShadowHostEl', 'qaiUnderlineWordShadowHostEl', 'qaiSidebarShadowHostEl'];
 const STYLE_ID = 'my-custom-shadow-style'; // ID used for updating/removing style
 
 function waitForElement(selector, timeout = 5000) {
@@ -183,6 +183,21 @@ display: none !important;
 .new-underline-wordChat-style .main {
     padding: 0 !important;
     font-family: sans-serif !important;
+}
+
+.questions-ai-icon-btn {
+    display: none !important;
+}
+
+.questions-ai-icon-btn-wrap__screenshot {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    opacity: 0.5 !important;
+}
+.questions-ai-icon-btn-wrap__screenshot .screenshot-icon {
+    width: 12px !important;
+    height: 12px !important;
 }
 `;
 
