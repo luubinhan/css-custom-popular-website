@@ -104,15 +104,22 @@ const CUSTOM_CSS = `
 .screenshot-popup {
         box-shadow: none !important;
         border: none !important;
+        background: transparent !important;
 }
+.box-area-drawer__overlay .box-area-draw__resizable-block {
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    outline: none !important;
+}
+
 .screenshot-popup.posAnimation {
         box-shadow: none !important;
         border: none !important;
 }
+.screenshot-popup .header-btns .ding-btn,
+.screenshot-popup .popup-title,
 .message-toolbar.isLastScreenshotChatReply {
-        display: none;
-}
-.popup-header {
         display: none !important;
 }
 
@@ -146,10 +153,11 @@ const CUSTOM_CSS = `
 display: none !important;
 }
 
+.new-underline-wordChat-style,
 .new-underline-word {
-        box-shadow: none !important;
-        border: none !important;
-        background: transsparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
 }
 
 .new-underline-word .underline-item:nth-child(3),
@@ -164,6 +172,15 @@ display: none !important;
 .new-underline-word .underline-more,
 .new-underline-word .underline-logo {
     display: none !important;
+}
+
+.new-underline-wordChat-style .answer .answer-result {
+    background: transparent !important;
+}
+
+.new-underline-wordChat-style .main {
+    padding: 0 !important;
+    font-family: sans-serif !important;
 }
 `;
 
