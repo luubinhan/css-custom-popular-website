@@ -194,6 +194,11 @@ display: none !important;
     border: none !important;
     background: transparent !important;
     opacity: 0.5 !important;
+    top: 0 !important;
+}
+.questions-ai-icon-btn-wrap {
+    top: auto !important;
+    bottom: 0 !important;
 }
 .questions-ai-icon-btn-wrap__screenshot:hover:after {
     display: none !important;
@@ -223,3 +228,9 @@ injectCssIntoPlasmoHost(CUSTOM_CSS, { wait: true, waitTimeout: 8000 })
 //     }
 //     return removed > 0;
 // }
+
+/*
+::selection {
+  background-color: rgba(0,0,0,0.03);
+}
+*/
