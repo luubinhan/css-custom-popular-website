@@ -112,6 +112,10 @@ const CUSTOM_CSS = `
     background: transparent !important;
     outline: none !important;
 }
+.box-area-drawer__overlay .box-area-drawer__corner-wrap .box-area-drawer__corner-item {
+    background-color: transparent !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+}
 .screenshot-chat-frame-container .chat-frame-content-container {
 background: transparent !important;
 }
