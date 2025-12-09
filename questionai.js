@@ -135,16 +135,29 @@ background: transparent !important;
 .answer .title {
         display: none !important;
 }
-.chat-mathpix .base-mathpix-content #preview #setText>div:not(:last-child) {
-        display: none !important;
-}
-
-.chat-mathpix .base-mathpix-content #preview #setText> div:last-child {
-        display: block !important;
-}
 
 .chat-mathpix .base-mathpix-content #preview #setText> div:last-child strong:first-child {
         display: none !important;
+}
+
+.mathpix-content-body #preview #setText hr,
+.mathpix-content-body #preview #setText br {
+    display: none !important;
+}
+.mathpix-content-body #preview #setText *:not(strong) {
+  font-size: 0;
+  line-height: 0;
+}    
+.mathpix-content-body #preview #setText strong,
+.mathpix-content-body #preview #setText .math-block,
+.mathpix-content-body #preview #setText svg {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  display: block !important;
+}    
+.mathpix-content-body #preview #setText,
+.new-underline-wordChat-style .answer-result #preview #setText {
+    background: rgba(255,255,255,.7) !important;
 }
 .ocr-ai-message-container .answer .answer-content.hasAnswerTitle:after {
         display: none !important;
