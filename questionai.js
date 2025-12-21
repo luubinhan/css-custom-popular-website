@@ -160,7 +160,42 @@ background: transparent !important;
     background: rgba(255,255,255,.7) !important;
 }
 .ocr-ai-message-container .answer .answer-content.hasAnswerTitle:after {
-        display: none !important;
+    display: none !important;
+}
+.render-arts-and-humanities-message .main-content .answer .answer-content:after,
+.render-calculator-message .main-content .answer .answer-content:after,
+.render-arts-and-humanities-message .main-content .answer .answer-content:after,
+.ocr-tiku-message-container .answer .answer-content:after,
+.chat-mathpix .cursor,
+.answer-outer .content .thinking .cursor,
+.question-button .question-button-box:after,
+.manage-guide-wrap:before  {
+    display: none !important;
+    background: transparent !important;
+    animation: none !important;
+}
+
+.assistant-con .el-textarea__inner,
+.summary-con .limt-num .el-input__inner,
+.summary-con .book-author .el-input__inner,
+.summary-con .book-name .el-input__inner {
+    caret-color: transparent !important;
+}
+.wel-ask-msg .guide .guide-text {
+    color: black !important;
+}
+    
+    .answer-outer .content .thinking .cursor,
+    .answer-outer .content .loading,
+    .thesis-replay .op-btn .btn-generating .dot-3,
+    .thesis-replay .op-btn .btn-generating .dot-2,
+    .thesis-replay .op-btn .btn-generating .dot-1,
+    .book-summary-replay .op-btn .btn-generating .dot-3,
+    .book-summary-replay .op-btn .btn-generating .dot-2,
+.book-summary-replay .op-btn .btn-generating .dot-1 {
+    background: transparent !important;
+    animation: none !important;
+    display: none !important;
 }
 .snapshot__toast {
         display: none !important;
