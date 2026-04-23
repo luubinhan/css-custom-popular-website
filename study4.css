@@ -1,0 +1,17 @@
+[href="/courses/level-test/"],
+.footer-wrapper,
+#test-comments,
+.content-wrapper .container .row > .col-12.col-md-3 {
+  display: none;
+}
+
+.content-wrapper .container .row > .col-12.col-md-9 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#test-info > p.text-danger.mt-2,
+#test-info > div:nth-child(2),
+#test-info > div:nth-child(3) {
+  display: none;
+}

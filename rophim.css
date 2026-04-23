@@ -1,0 +1,19 @@
+.fade.modal-backdrop.show,
+.modal-dialog.modal-dialog-centered,
+.fade.v-modal.d-modal.sspp-modal.modal.show,
+#community,
+#comment-area,
+.wc-side,
+.display-single.is-demo,
+.footer-elements,
+.category-name,
+.ws-actors,
+.topics-list.topics-grid.topics-line.mt-0,
+.sspp-area.is-wide.is-catfish,
+[href="/xem-chung"],
+[href="https://robong.tv"],
+.fade.v-modal.d-modal.spp-modal.modal.show {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}

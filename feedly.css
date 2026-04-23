@@ -1,0 +1,21 @@
+button[aria-label="Home"],
+.TopHeaderBar {
+  display: none !important
+}
+.fx .header .right-col.extra,
+button[aria-label="Learn and Get Support"],
+button[aria-label="New Features"],
+button[aria-label="Track trends and topics using Feedly AI"],
+div[title="Feedly AI"],
+#header-title,
+div[title='Recently Read'],
+div[title='Integrations'],
+div[title='Changelog'],
+div[title='Learn and Get Support'],
+div[title='Integrations & API'],
+button[aria-label='Create AI Feed'],
+.LeftnavProfileItem__button,
+div[href="https://feedly.com/i/integrations"],
+#header-title + div {
+  display: none !important
+}
